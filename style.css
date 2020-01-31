@@ -1,0 +1,40 @@
+/*
+ Theme Name:   Post Filtering
+ Theme URI:    https://youtube.com/c/wpcasts
+ Description:  WPCast's Post Filtering Tutorial
+ Author:       Alex Young
+ Author URI:   https://youtube.com/c/wpcasts
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  wpc
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+body {
+  background: #eee;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  width: 72rem;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, calc(33% - 50px));
+  grid-gap: 50px;
+  justify-content: space-between;
+}
+
+
+.home-card{
+  padding: 20px;
+  background: #fff;
+}
